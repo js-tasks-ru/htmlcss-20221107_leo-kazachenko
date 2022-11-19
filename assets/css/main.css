@@ -1,5 +1,11 @@
 @import '../fonts/fonts.css';
 
+@import '../../components/Page/page.css';
+@import '../../components/Header/header.css';
+@import '../../components/Footer/footer.css';
+@import '../../components/Prewiew/prewiew.css';
+@import '../../components/Container/container.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -20,5 +26,6 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Inter', sans-serif;
 }
