@@ -1,69 +1,69 @@
-/* Стилизация кнопки */
-.button {
-    height: 48px;
-    border-radius: 8px;
-    color: #fff;
-    font-size: 16px;
-    display: inline-block;
-    border: none;
-    cursor: pointer;
-    font-weight: 500;
-    line-height: 19px;
-    text-align: center;
-    padding: 15px 20px 14px;
-   }
-   
-   :root {
-       --theme-color: #4263EB;
-       --themy-color: #7048E8;
-       --color: #495057;
-     }
-   
-     .button__primary {
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-    background-color: #4263EB;
-   }
-   
-   .button__primary:hover {
-    background-color: #2342C0;
-   }
-   
-   .button__primary-disabled:disabled {
-    opacity: 0.6;   
-    background-color: var(--theme-color);
-    cursor: not-allowed;
-   }
-   
-   .button__secondary {
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;   
-    background-color: #7048E8;
-   }
-   
-   .button__secondary:hover {
-    background-color: #5028C6;
-   }
-   
-   .button__secondary-disabled:disabled {
-    opacity: 0.6; 
-    cursor: not-allowed;
-    background-color: var(--themy-color);
-   }
-   
-   .button__alternate {
-       transition: opacity 200ms ease-in-out, background 200ms ease-in-out;   
-    background-color: #fff;
-    color: #495057;
+.button {   
+ height: 48px;
+ border-radius: 8px;
+ color: #fff;
+ font-size: 16px;
+ display: inline-block;
+ border: none;
+ cursor: pointer;
+ font-family: 'Roboto';
+ font-weight: 500;
+ line-height: 19px;
+ text-align: center;
+ padding: 15px 20px 14px;
+ transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+ button {
+    --theme-color: #4263EB;
+    --themy-color: #7048E8;
+    --color: #495057;
+  }
+
+  .button_primary {
+ background-color: #4263EB;
+}
+
+.button_primary:hover {
+ background-color: #2342C0;
+}
+
+.button_primary-disabled {
+ opacity: 0.6;   
+ background-color: var(--theme-color);
+}
+
+.button_secondary {  
+ background-color: #7048E8;
+}
+
+.button_secondary:hover {
+ background-color: #5028C6;
+}
+
+.button_secondary-disabled {
+ opacity: 0.6; 
+ background-color: var(--themy-color);
+}
+
+.button_alternate { 
+ background-color: #fff;
+ color: #495057;
+ border: 1px solid #ACB5BD;
+}
+
+.button_alternate:hover {
+ border: 1px solid #212429;
+}
+
+.button_alternate-disabled {
+    color: var(--color);
+    background-color: #fff; 
     border: 1px solid #ACB5BD;
-   }
-   
-   .button__alternate:hover {
-    border: 1px solid #212429;
-   }
-   
-   .button__alternate-disabled:disabled {
-       color: var(--color);
-       background-color: #fff; 
-       border: 1px solid #ACB5BD;
-       opacity: 0.6; 
-       cursor: not-allowed;
-   }
+    opacity: 0.6; 
+    
+}
+
+.button:disabled {
+    cursor: not-allowed;  
+}
