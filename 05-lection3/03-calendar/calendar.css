@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.calendar {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    background: #FFF;
+    width: 100%;
+    max-width: 304px;
+    padding: 28px 30px 40px 30px;
+}
+
+.calendar__title {
+    font-size: 20px;
+    margin-bottom: 24px;
+    color: #334D6E;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.calendar__wrapper {
+    position: relative;
+    padding-bottom: 100%;
+}
+
+.calendar__inner {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.calendar__item {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #334D6E;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.calendar__item_day {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #90A0B7;
+}
+
+.calendar__item_active {
+    background: #4263EB;
+    color: #FFF;
+}
+
+.calendar__item_active_Color {
+    background: rgba(160, 177, 245, 0.2);   
+}
+
