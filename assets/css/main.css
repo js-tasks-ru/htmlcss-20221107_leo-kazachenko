@@ -1,5 +1,13 @@
 @import '../fonts/fonts.css';
 
+@import '../../components/Page/page.css';
+@import '../../components/Header/header.css';
+@import '../../components/Footer/footer.css';
+@import '../../components/Preview/preview.css';
+@import '../../components/Container/container.css';
+@import '../../03-lection1/01-button/button.css';
+@import '../../components/Card/card.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -19,6 +27,11 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
+    
+}
+
+html, body {
+    height: 100vh;
 }
