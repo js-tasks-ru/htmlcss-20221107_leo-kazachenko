@@ -1,28 +1,26 @@
 .gistogramm {
-    width: 354px;
-    height: 185px;
     border: 1px solid rgba(172, 181, 189, 1);
     border-radius: 8px;
+    padding: 16px 24px 24px 26px;
+    display: inline-block;  
 }
 
 .gistogramm__text {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .gistogramm__link {
  text-decoration: none;
- margin: 19px 24px 0 0;   
 }
 
 .gistogramm__title {
  font-family: 'Inter', sans-serif;   
  font-size: 16px;
- margin: 16px 0 8px 24px;
  line-height: 24px;
  color: #212429;
+ margin-bottom: 6px;
  opacity: 0.8;
 }
 
@@ -30,27 +28,21 @@
  font-family: 'Inter', sans-serif;  
  font-size: 20px;
  line-height: 26px;
- margin-left: 24px; 
 }
 
-.gistogramm_chart {
-   display: flex; 
-   justify-content: space-around;
-   width: auto;
+.gistogramm__chart {
+   display: flex;
+   align-items: flex-end; 
    height: 50px;
    background-color: #fff; 
-   margin: 39px 24px 24px 24px;
+   margin-top: 39px;
+   gap: 1px; 
 }
 
 .gistogramm__item { 
-    margin-right: 1px;  
     width: 9px;
-    background: #4263EB;    
-      
+    background: #4263EB;      
 }
 
-.gistogramm__menu {
-display: flex;
-align-items: flex-end;      
-}
+
 
