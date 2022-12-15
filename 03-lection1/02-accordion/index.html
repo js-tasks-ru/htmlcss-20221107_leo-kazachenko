@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <!-- Страница с аккордеоном -->
-<html lang="ru">
+<html lang="en">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
+        <title>accordion</title>
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
+        <details class="accordion__summary" open>
+            <summary class="accordion__item">
+                Accordion item 1
             </summary>
-            <p>
-                Hidden content
+            <p class="accordion__text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.  
             </p>
         </details>
+        <details class="accordion__summary">
+        <summary class="accordion__item">
+            Accordion item 2
+        </summary>
+        <p>
+        </p>
+    </details>
     </body>
 </html>
